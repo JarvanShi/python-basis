@@ -1,0 +1,13 @@
+name = input('Please enter your name:')
+student_number = input('Please enter your student number:')
+birthday_year = input('Please enter your born year:')
+birthday_month = input('Please enter your born month:')
+birthday_day = input('Please enter your born day:')
+apple_price = float(input('Please enter the apple price:'))
+apple_quantity = float(input('Please enter the purchase quantity:'))
+print('name:%s' % name)
+print('student number:%s' % student_number)
+print('birthday:%s %s,%s' % (birthday_month,birthday_day,birthday_year))
+print('apple price:%.2f\nquantity:%.2f\n￥:%.2f'
+      % (apple_price,apple_quantity,(apple_price * apple_quantity)))
+print('\r{1:{0}^8.2f'.format(0,1),end='')
